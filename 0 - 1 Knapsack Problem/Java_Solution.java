@@ -1,4 +1,4 @@
-class Solution {
+class Java_Solution {
     static int knapsack(int W, int val[], int wt[]) {
         int n = val.length;
         int dp[][] = new int[n + 1][W + 1];
